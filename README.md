@@ -1,4 +1,4 @@
-IncendiumMod repo-manifest storage reposytory
+IncendiumMod repo-manifest storage repository
 
 Branch: development
 
