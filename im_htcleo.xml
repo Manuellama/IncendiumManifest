@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+<remote  name="gh"
+           fetch="https://github.com/" />
+
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/" />
+
+  <remote  name="ln"
+           fetch="git://android.git.linaro.org/" />
+
+  <remote  name="lsd"
+           fetch="https://github.com/LiquidSmooth-Devices/" />
+
+  <remote  name="ls"
+           fetch="https://github.com/LiquidSmooth/" />
+
+  <remote  name="sr"
+           fetch="git://github.com/SlimRoms/" />
+
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />
+           
+  <remote  name="pf"
+           fetch="git://github.com/pixelfreak2005/" />
+           
+  <remote  name="evervolv"
+           fetch="git://github.com/Evervolv/" />
+<include name="base-kk.xml"/>
+
+<project path="device/htc/leo" name="android_device_htc_leo" remote="pf" revision="kitkat" />
+  <project path="kernel/htc/leo" name="android_kernel_htcleo-3.0" remote="pf" revision="leo" />
+</manifest>
