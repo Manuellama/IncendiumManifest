@@ -28,6 +28,8 @@
            
   <remote  name="evervolv"
            fetch="git://github.com/Evervolv/" />
+
+<default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
 <include name="base-kk.xml"/>
 
 <project path="device/htc/leo" name="android_device_htc_leo" remote="pf" revision="kitkat" />
