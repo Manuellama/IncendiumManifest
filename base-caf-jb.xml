@@ -6,6 +6,8 @@
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
+  <remote fetch="git://github.com/CyanogenMod/" name="cm"/>
+  <remote fetch="git://github.com/recaf/" name="recaf"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
 
   <!-- B2G specific things. -->
