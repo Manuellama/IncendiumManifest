@@ -5,24 +5,24 @@
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
-  <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="git://github.com/CyanogenMod/" name="cm"/>
   <remote fetch="git://github.com/recaf/" name="recaf"/>
+  <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
 
   <!-- B2G specific things. -->
-  <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
+  <project name="platform_build" path="build" remote="recaf" revision="b2g-4.3_r2.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
-  <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
-  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
-  <project path="external/valgrind" name="valgrind" remote="b2g" revision="fxos" />
-  <project path="external/VEX" name="vex" remote="b2g" revision="fxos" />
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="v2.1" />
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
+  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="4a7d860ef54cf6e119238b247522a85c13d17dd6" />
+  <project path="external/valgrind" name="valgrind" remote="b2g" revision="v2.1" />
+  <project path="external/VEX" name="vex" remote="b2g" revision="v2.1" />
 
   <!-- Stock Android things -->
   <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1"/>
@@ -76,7 +76,6 @@
   <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
   <project name="platform/external/libnl-headers" path="external/libnl-headers"/>
   <project name="platform/external/libogg" path="external/libogg"/>
-  <project name="platform/external/libpcap" path="external/libpcap"/>
   <project name="platform/external/libpng" path="external/libpng"/>
   <project name="platform/external/libselinux" path="external/libselinux"/>
   <project name="platform/external/libsepol" path="external/libsepol"/>
@@ -84,6 +83,7 @@
   <project name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
   <project name="platform/external/mksh" path="external/mksh"/>
   <project name="platform/external/netcat" path="external/netcat"/>
+  <project name="platform/external/netperf" path="external/netperf"/>
   <project name="platform/external/openssl" path="external/openssl"/>
   <project name="platform/external/ping" path="external/ping"/>
   <project name="platform/external/ping6" path="external/ping6"/>
@@ -98,7 +98,6 @@
   <project name="platform/external/strace" path="external/strace"/>
   <project name="platform/external/svox" path="external/svox"/>
   <project name="platform/external/tagsoup" path="external/tagsoup"/>
-  <project name="platform/external/tcpdump" path="external/tcpdump"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
   <project name="platform/external/tinyxml" path="external/tinyxml"/>
   <project name="platform/external/tinyxml2" path="external/tinyxml2"/>
