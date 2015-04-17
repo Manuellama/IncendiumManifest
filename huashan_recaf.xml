@@ -49,7 +49,7 @@ Edit the /build repo in base-caf-jb.xml to look like this. (custom boot.img)
     <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="2e97ad80cda38788503e6f29ff09416c521230dd"/>
     <project name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" revision="7d28489ae38c0bed933fe1818fef587f0200dc53"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="jb_3.2.5_rb1.7"/>
-    <project name="hardware_ril" path="hardware/ril" remote="recaf" revision="recaf-4.3"/>
+  <project name="platform/hardware/ril" path="hardware/ril" revision="b2g_jb_3.2"/>
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="b2g_jb_3.2"/>
   <project name="platform/system/core" path="system/core" revision="b2g_jb_3.2"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
